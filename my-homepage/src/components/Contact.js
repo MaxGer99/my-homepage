@@ -10,7 +10,7 @@ const Contact = () => {
 				media channels.
 			</p>
 			<ul>
-				<li>Email: example@example.com</li>
+				<li>Email: maxgerber99+jobs@gmail.com</li>
 				<li>
 					LinkedIn: <a href="https://linkedin.com">My LinkedIn</a>
 				</li>
