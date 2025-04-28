@@ -1,11 +1,15 @@
 import React from 'react';
+import './Header.css';
 
-const Header = () => {
+function Header() {
 	return (
-		<header>
-			<h1>Welcome to My Homepage</h1>
+		<header className="header">
+			<h1 className="header-title">My Homepage</h1>
+			<a href="/resume.pdf" download className="resume-button">
+				Download Resume
+			</a>
 		</header>
 	);
-};
+}
 
 export default Header;
