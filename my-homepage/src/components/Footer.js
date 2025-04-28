@@ -4,7 +4,6 @@ import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 const Footer = () => {
 	return (
 		<footer>
-			<p>© 2025 Max Gerber's Homepage</p>
 			<div className="social-icons">
 				<a
 					href="https://www.instagram.com/gerbz__/"
@@ -28,6 +27,7 @@ const Footer = () => {
 					<FaGithub />
 				</a>
 			</div>
+			<p>© 2025 Max Gerber's Homepage</p>
 		</footer>
 	);
 };
