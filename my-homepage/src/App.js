@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import VideoSection from './components/VideoSection';
 import SplashScreen from './components/SplashScreen';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
@@ -25,13 +24,6 @@ const App = () => {
 				>
 					<Header />
 					<main className="main-content">
-						<motion.div
-							initial={{ scale: 0.8, opacity: 0 }}
-							animate={{ scale: 1, opacity: 1 }}
-							transition={{ duration: 1 }}
-						>
-							<VideoSection />
-						</motion.div>
 						<motion.div
 							initial={{ opacity: 0, y: 50 }}
 							animate={{ opacity: 1, y: 0 }}
