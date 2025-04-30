@@ -12,10 +12,24 @@ const Contact = () => {
 			<ul>
 				<li>Email: maxgerber99+jobs@gmail.com</li>
 				<li>
-					LinkedIn: <a href="https://linkedin.com">My LinkedIn</a>
+					LinkedIn:{' '}
+					<a
+						href="https://linkedin.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						My LinkedIn
+					</a>
 				</li>
 				<li>
-					GitHub: <a href="https://github.com">My GitHub</a>
+					GitHub:{' '}
+					<a
+						href="https://github.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						My GitHub
+					</a>
 				</li>
 			</ul>
 		</section>
