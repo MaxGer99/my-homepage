@@ -9,29 +9,29 @@ const Contact = () => {
 				Feel free to reach out to me via email or through my social
 				media channels.
 			</p>
-			<ul>
-				<li>Email: maxgerber99+jobs@gmail.com</li>
-				<li>
-					LinkedIn:{' '}
-					<a
-						href="https://linkedin.com"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						My LinkedIn
-					</a>
-				</li>
-				<li>
-					GitHub:{' '}
-					<a
-						href="https://github.com"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						My GitHub
-					</a>
-				</li>
-			</ul>
+			<div className="contact-item">
+				Email: maxgerber99+jobs@gmail.com
+			</div>
+			<div className="contact-item">
+				LinkedIn:{' '}
+				<a
+					href="https://linkedin.com"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					My LinkedIn
+				</a>
+			</div>
+			<div className="contact-item">
+				GitHub:{' '}
+				<a
+					href="https://github.com"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					My GitHub
+				</a>
+			</div>
 		</section>
 	);
 };

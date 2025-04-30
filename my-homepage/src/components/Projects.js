@@ -6,11 +6,9 @@ const Projects = () => {
 		<section className="projects">
 			<h2>Projects</h2>
 			<p>Here are some of the projects I have worked on:</p>
-			<ul>
-				<li>Project 1: Description</li>
-				<li>Project 2: Description</li>
-				<li>Project 3: Description</li>
-			</ul>
+			<div className="project-item">Project 1: Description</div>
+			<div className="project-item">Project 2: Description</div>
+			<div className="project-item">Project 3: Description</div>
 		</section>
 	);
 };
