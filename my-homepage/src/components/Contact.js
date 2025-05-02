@@ -8,29 +8,12 @@ const Contact = () => {
 			<p>
 				Feel free to reach out to me via email or through my social
 				media channels.
+				<br />I am always open to discussing new projects, creative
+				ideas, or opportunities to collaborate.
 			</p>
-			<div className="contact-item">
+			<div className="contact-item" id="email">
+				<h3>Email</h3>
 				Email: maxgerber99+jobs@gmail.com
-			</div>
-			<div className="contact-item">
-				LinkedIn:{' '}
-				<a
-					href="https://linkedin.com"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					My LinkedIn
-				</a>
-			</div>
-			<div className="contact-item">
-				GitHub:{' '}
-				<a
-					href="https://github.com"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					My GitHub
-				</a>
 			</div>
 		</section>
 	);
