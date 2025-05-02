@@ -13,7 +13,11 @@ const Contact = () => {
 			</p>
 			<div className="contact-item" id="email">
 				<h3>Email</h3>
-				Email: maxgerber99+jobs@gmail.com
+				<p>
+					Email: maxgerber99+jobs@gmail.com
+					<br />
+				</p>
+				<a href="mailto:maxgerber99+jobs@gmail.com">Send an Email</a>
 			</div>
 		</section>
 	);
