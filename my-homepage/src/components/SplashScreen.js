@@ -19,6 +19,7 @@ const SplashScreen = ({ onFinish }) => {
 		<div className="splash-screen">
 			<h1>Welcome to Max Gerber's Portfolio</h1>
 			<div className="loading-spinner"></div>
+			<p className="please-wait">Please wait...</p>
 		</div>
 	);
 };
