@@ -22,8 +22,16 @@ const App = () => {
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 1 }}
 				>
+					<header className="App-header">
+						<h1>Welcome to Max Gerber's Portfolio</h1>
+					</header>
 					<Header />
 					<main className="main-content">
+						<img
+							src="/path-to-your-headshot.jpg"
+							alt="Max Gerber"
+							className="headshot"
+						/>
 						<motion.div
 							initial={{ opacity: 0, y: 50 }}
 							animate={{ opacity: 1, y: 0 }}
