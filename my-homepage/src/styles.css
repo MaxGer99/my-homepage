@@ -62,7 +62,8 @@ main {
 }
 
 footer {
-    background-color: #f4f4f4;
+    background-color: rgba(244, 244, 244, 0.5);
+    /* Make the footer mostly transparent */
     padding: 10px;
     text-align: center;
     color: #555;

@@ -10,9 +10,16 @@ import './styles.css';
 
 const App = () => {
 	const [showMainContent, setShowMainContent] = useState(false);
-
 	return (
-		<div className="app">
+		<div
+			className="app"
+			style={{
+				backgroundImage: `url(/Background.png)`,
+				backgroundSize: 'cover',
+				backgroundPosition: 'center',
+				backgroundAttachment: 'fixed',
+			}}
+		>
 			{!showMainContent && (
 				<SplashScreen onFinish={() => setShowMainContent(true)} />
 			)}
