@@ -10,6 +10,8 @@ import './styles.css';
 
 const App = () => {
 	const [showMainContent, setShowMainContent] = useState(false);
+	const [status] = useState('Looking for Work');
+
 	return (
 		<div
 			className="app"
@@ -32,7 +34,7 @@ const App = () => {
 					<header className="App-header">
 						<h1>Welcome to Max Gerber's Portfolio</h1>
 					</header>
-					<Header />
+					<Header status={status} />
 					<main className="main-content">
 						<img
 							src="/path-to-your-headshot.jpg"
