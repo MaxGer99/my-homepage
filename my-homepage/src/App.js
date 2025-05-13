@@ -10,7 +10,7 @@ import './styles.css';
 
 const App = () => {
 	const [showMainContent, setShowMainContent] = useState(false);
-	const [status] = useState('Looking for Work');
+	const [status] = useState('Currently looking for Work');
 
 	return (
 		<div

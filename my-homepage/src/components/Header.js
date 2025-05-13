@@ -13,9 +13,9 @@ function Header({ status, lastUpdated }) {
 			>
 				{status}
 				{isHovered && (
-					<span className="status-tooltip">
+					<div className="status-popup">
 						Last updated: {lastUpdated}
-					</span>
+					</div>
 				)}
 			</h1>
 			<a href="/resume.pdf" download className="resume-button">
