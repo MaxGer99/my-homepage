@@ -10,7 +10,8 @@ import './styles.css';
 
 const App = () => {
 	const [showMainContent, setShowMainContent] = useState(false);
-	const [status] = useState('Currently looking for Work');
+	const [status] = useState('Currently looking for work');
+	const [lastUpdated] = useState('May 13, 2025'); // Example initial timestamp
 
 	return (
 		<div
@@ -34,7 +35,7 @@ const App = () => {
 					<header className="App-header">
 						<h1>Welcome to Max Gerber's Portfolio</h1>
 					</header>
-					<Header status={status} />
+					<Header status={status} lastUpdated={lastUpdated} />
 					<main className="main-content">
 						<img
 							src="/path-to-your-headshot.jpg"
