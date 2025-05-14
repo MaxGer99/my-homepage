@@ -10,8 +10,8 @@ import './styles.css';
 
 const App = () => {
 	const [showMainContent, setShowMainContent] = useState(false);
-	const [status] = useState('Currently looking for work');
-	const [lastUpdated] = useState('May 13, 2025'); // Example initial timestamp
+	const [status] = useState('In an interview step');
+	const [lastUpdated] = useState('May 14, 2025'); // Example initial timestamp
 
 	return (
 		<div
